@@ -1,6 +1,6 @@
 ##Agency Website Template
 
-This template was designed in Photoshop and was built with basic HTML5, CSS3, and JS.
+A simple business-oriented landing page mocked up in Photoshop and designed with HTML and CSS
 
 ###Mockup:
 ![mockup](https://s14.postimg.org/6pctv5yc1/Agency_Web_Template.png)
