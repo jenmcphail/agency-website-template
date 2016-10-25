@@ -1,5 +1,5 @@
 /*google font titillium web*/
-@import 'https://fonts.googleapis.com/css?family=Titillium+Web:bold,semibold';
+@import 'https://fonts.googleapis.com/css?family=Titillium+Web:bold';
 
 .container{
     width: 1100px;
@@ -72,7 +72,7 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: #5e5d5d;
-    font-family: "Titillium Web Bold", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     font-size: 14px;
     letter-spacing: .5px;
 
@@ -114,7 +114,7 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: #5e5d5d;
-    font-family: "Titillium Web Bold", sans-serif;
+    font-family: "Titillium Web", sans-serif;
     font-size: 14px;
     letter-spacing: .5px;
 
@@ -132,7 +132,7 @@ header nav ul .selected{
 /*  slider  */
 .slider_wrapper{
     width: 100%;
-    height: auto;
+    height: 700px;
     position: relative;
     overflow: hidden;
 }
@@ -143,6 +143,7 @@ header nav ul .selected{
     margin: 0;
     left: 0;
     animation: 30s slidy infinite;
+    overflow: hidden;
 }
  
 #slider .slide{
@@ -193,7 +194,7 @@ header nav ul .selected{
     top: 50%;
     color: #ff4242;
     text-align: center;
-    font-family: "raleway-bold", arial;
+    font-family: sans-serif, arial;
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
@@ -207,6 +208,77 @@ header nav ul .selected{
 }
 
 
-slider = slider_wrapper
-figure = slider
-slide = slide
+/*  services  */
+.services{
+    padding: 100px 0;
+    border-bottom: 1px solid #f5f5f5;
+}
+ 
+.section_title{
+    width: 333px;
+    height: auto;
+    margin-right: 50px;
+    float: left;
+}
+ 
+.section_title h2{
+    color: #5e5e5e;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+}
+ 
+.services h2,
+.services h3{
+    margin: 0;
+}
+ 
+.services .services_list{
+    width: 717px;
+    float: right;
+}
+ 
+.services .services_list ul{
+    list-style: none;
+}
+ 
+.services .services_list ul li{
+    width: 212px;
+    float: left;
+    margin-right: 40px;
+}
+ 
+.services .services_list ul li:last-child{
+    margin-right: 0;
+}
+ 
+.services .services_list h3{
+    color: #5e5e5e;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+ 
+.services .services_list p{
+    color: #8c8b8b;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    margin-bottom: 30px;
+    line-height: 24px;
+    letter-spacing: .5px;
+}
+ 
+.services .services_list a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 13px;
+    letter-spacing: .5px;
+}
+ 
+.services .services_list a .arrow{
+    margin-left: 5px;
+    font-size: 16px;
+}
