@@ -374,7 +374,7 @@ header nav ul .selected{
 /*Brands*/
 
 .clients{
-    padding: 25px 0;
+    padding: 100px 0;
 }
  
 .client_list ul{
@@ -383,7 +383,7 @@ header nav ul .selected{
  
 .client_list ul li{
     float: left;
-    margin-right: 50px; 
+    margin-right: 25px; 
 }
  
 .client_list ul li:last-child{
