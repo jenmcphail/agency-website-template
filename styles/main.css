@@ -129,39 +129,72 @@ header nav ul .selected{
     color: #ff4242;
 }
 
-/*slider*/
-
+/*  slider  */
 .slider_wrapper{
     width: 100%;
     height: auto;
     position: relative;
     overflow: hidden;
 }
-
+ 
 #slides .slide{
     position: relative;
     width: 100%;
     float: left;
 }
-
+ 
 #slides .slide img{
     width: 100%;
     height: auto;
 }
-
+ 
 #slides .slide .caption{  
     width: 100%;
     position: absolute;
-    color: #5a5a5a;
+    top: 50%;
+    color: #ff4242;
     text-align: center;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: "raleway-bold", arial;
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 60px;
-    top: 50%;
+    text-shadow: 1px 1px #5a5a5a;
  
     -webkit-transform: translateY(-50%);
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+ 
+.slider_wrapper .rslides_tabs{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 80px;
+    z-index: 9999;
+}
+ 
+.slider_wrapper .rslides_tabs li{
+    list-style: none;
+    display: inline;
+}
+ 
+.slider_wrapper .rslides_tabs li a{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-left: 15px;
+    background: rgba(255, 255, 255, .5);
+    text-indent: -999px;
+    overflow: hidden;
+ 
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    border-radius: 100px;
+}
+ 
+.slider_wrapper .rslides_tabs .rslides_here a{
+    background: rgba(255, 255, 255, 1);
+}
