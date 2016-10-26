@@ -461,7 +461,7 @@ footer .copyright p{
  
 footer .copyright p a{
     text-decoration: none;
-    font-family: "raleway-bold", arial;
+    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     color: #8d8b8b;
 }
@@ -483,7 +483,7 @@ footer .footer_links .columns:last-child{
  
 footer .footer_links .columns_title{
     color: #5e5e5e;
-    font-family: "raleway-bold", arial;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 50px;
@@ -520,19 +520,22 @@ footer .sm ul li a:before{
  
  
 footer .sm ul li .facebook:before{
-    height: 14px;
+    height: 40px;
+    width: 40px;
     background: url('../imgs/facebookLogo.png') no-repeat;
     vertical-align: middle;
 }
  
 footer .sm ul li .twitter:before{
-    height: 15px;
+    height: 40px;
+    width: 40px;
     background: url('../imgs/twitterLogo.png') no-repeat;
     vertical-align: middle;
 }
 
 footer .sm ul li .google:before{
-    height: 14px;
+    height: 40px;
+    width: 40px;
     background: url('../imgs/instaLogo.png') no-repeat;
     vertical-align: middle;
 }
