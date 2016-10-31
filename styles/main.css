@@ -195,7 +195,6 @@ header nav ul .selected{
     color: #ff4242;
     text-align: center;
     font-family: sans-serif, arial;
-    font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 60px;
@@ -205,6 +204,21 @@ header nav ul .selected{
     -moz-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
+
+}
+
+@media screen and (min-width: 300px){
+    #slider .slide .caption{
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (min-width: 700px) {
+    #slider .slide .caption{
+        font-size: 50px;
+    }
 }
 
 
